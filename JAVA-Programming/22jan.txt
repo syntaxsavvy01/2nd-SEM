@@ -1,0 +1,19 @@
+                                            22 - JANUARY - 2026
+
+
+final keyword:
+    The final keyword in java is used to restrict modification ones somthing is declared as final it can't be changed. the keyword 
+    can be used with variable, methods, classes.
+
+ARRAY:
+    To store multiple value of same type.
+        1. single dimensional array:    int num [] = new int [5];
+        2. multi-dimensional array:     int num [][] = new int [3][5];
+
+
+TODO LIST
+    1. math.random
+    2. diff. b/w stack and heep memory
+    3. mutable and unmutable string
+    4. string buffer and string builder
+
