@@ -1,0 +1,50 @@
+String in java:
+    A string is a sequence of character . in java, string is a class present in the java.lang package 
+    
+    key point
+    1. immutable
+    2. stored in string constant pool
+    3. any modification creates new object
+
+    class StringExample{
+        public static void main
+    }
+
+String buffer:
+    StringBuilder is similar to StringBuffer but not thread safe.
+
+    key point
+    1. mutable
+    2. thread safe
+
+String builder:
+    StringBuffer is used to create mutable String.
+
+    key point
+    1. mutable
+    2. not thread safe
+
+
+append
+insert 
+replace 
+delete
+reverse
+capaciuty
+length
+charAt 
+
+
+Static Method
+    changable but storing only one copy into the memory even if we create multiple object of same variable then in memory only one 
+    copy will get stored. static method can be stored once but non- static method can be stored multiple time as many time we are 
+    create an object. static method is called directly but non static method you need to create a object 
+
+
+VARIABLE 
+    1. local (limited to scope)
+        A variable which is declared inside the body of the method or method parameter.
+    2. instance (limited to instance/class)
+        A variable which is declared inside the class but outside of all the method.
+    3. static (no-limitation / widely accepted)
+        A variable which is declared with the help of static key
