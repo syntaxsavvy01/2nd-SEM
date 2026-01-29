@@ -1,0 +1,48 @@
+conditional operator: the logical operator in python are used to combine or modify the condition and return result in boolean form. it is commonly used in conditional #statement to control the
+flow of program based on multiple logical condition. the logical operators are and, or, not.
+
+1. and : it returns true  if both operands  or condition are true.
+   syntax:  if (cond1) and (cond2):
+               #statement
+
+2. or :  it returns false if both operands  or condition are false.
+   syntax:  if (cond1) or (cond2):
+               #statement
+3. not : it returns false if both operands  or condition are true.
+   syntax:  if (cond1) not (cond2):
+               #statement
+
+
+
+conditional operator: The condtional statement are used to check the condtion and executer the conditional block if it is true. 
+
+1. if: it is used check and execute the condition if it is true.
+syntax:  if (cond):
+            #statement
+
+2. if-else: in this statement if block will executed if condition be true.
+syntax:  if (cond):
+            #statement
+         else:
+            #statement
+
+3. if-elif-else: 
+syntax:  if (cond):
+            #statement
+            elif (cond):
+               #statement
+            elif (cond):
+               #statement
+            elif (cond):
+               #statement
+         else:
+            #statement
+
+4. neasted-if: it is used to execute multiple if-else block in the outer if-else block.
+syntax:  if (outer cond):
+            if (inner cond):
+               #statement
+            else:
+               #statement
+         else:
+            #statement
