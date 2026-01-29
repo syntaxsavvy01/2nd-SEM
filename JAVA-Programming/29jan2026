@@ -1,0 +1,24 @@
+class Student
+{
+    public void showName()
+    {
+    System.out.println("Student NAme : Jhon");
+    showRollno();
+    }
+    private void showRollno()
+    {
+        System.out.println("Roll number :101");
+    }
+
+}
+
+public class accessModifierDEmo 
+{
+    public static void main (String [] args)
+    {
+        Student s = new Student();
+        s.showName();
+        //s.showRollno(); //doesnot execute due to private access modifier
+
+    }
+}
